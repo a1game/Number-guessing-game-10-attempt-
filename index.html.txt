@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link href="/Base.css" rel="stylesheet">
+        </head>
+    <body class="t1"><script src="num.js"></script>
+            <div class="TitleHolder"><div class="Title">Made By Sam</div></div>
+            <div class="game">
+                <div class="new">
+                    <button class="button" onclick="start()">Start</button>
+                    <input placeholder="Estimation" class="text-box" id="estim">
+                    <button class="button" onclick="guess()" id="guess">Estimate</button>
+                </div>
+                <div class="new">
+                    <div class="text-box-fit" id="message">im just a message box</div>
+                </div>
+            </div>
+    </body>
+</html>
